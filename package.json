@@ -1,29 +1,36 @@
 {
-    "name": "npm-licensing",
-    "description": "A lightweight License file generator and parser for NodeJS.",
-    "version": "2.1.0",
-    "license": "MIT",
-    "author": "atmon3r <contact.atmoner@gmail.com>",
-    "keywords": [
-        "license",
-        "file",
-        "generation",
-        "parsing",
-        "validation"
-    ],
-    "devDependencies": {
-        "should": "13.1.3"
-    },
-    "engine": "node >= 4.3.1",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/atmoner/npm-licensing"
-    },
-    "bugs": {
-        "url": "https://github.com/atmoner/npm-licensing/issues"
-    },
-    "homepage": "https://github.com/atmoner/npm-licensing",
-    "dependencies": {
-        "json-stable-stringify": "1.0.1"
-    }
+  "name": "npm-licensing",
+  "description": "A lightweight License file generator and parser for NodeJS.",
+  "version": "2.1.0",
+  "license": "MIT",
+  "author": "atmon3r <contact.atmoner@gmail.com>",
+  "keywords": [
+    "license",
+    "file",
+    "generation",
+    "parsing",
+    "validation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atmoner/npm-licensing"
+  },
+  "bugs": {
+    "url": "https://github.com/atmoner/npm-licensing/issues"
+  },
+  "homepage": "https://github.com/atmoner/npm-licensing",
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check index.js && node --check test/license.test.js"
+  }
 }
