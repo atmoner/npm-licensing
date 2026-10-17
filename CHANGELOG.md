@@ -1,5 +1,7 @@
 # Changelog
 
+## 2.2.0
+
 ## Unreleased
 
 These changes include stricter parsing and a higher Node.js minimum. Release them as a new major version; package.json keeps the existing version until a release is prepared.

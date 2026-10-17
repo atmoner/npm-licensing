@@ -1,7 +1,7 @@
 {
   "name": "npm-licensing",
   "description": "A lightweight License file generator and parser for NodeJS.",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "MIT",
   "author": "atmon3r <contact.atmoner@gmail.com>",
   "keywords": [
